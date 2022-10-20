@@ -1,0 +1,11 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+
+json5=0.9.6=pyhd3eb1b0_0
+jsonschema=4.4.0=py310haa95532_0
+regex=2022.9.13=pypi_0
+scrapy=2.6.2=py310haa95532_0
+scrapy-splash=0.8.0=pypi_0
+scrapyjs=0.2=pypi_0
+selenium=3.141.0=py310h2bbff1b_1000
