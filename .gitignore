@@ -13,6 +13,12 @@ pip-delete-this-directory.txt
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Python Environment
+python_env/
+
+# Scapy job-specific data
+**/crawls/
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
