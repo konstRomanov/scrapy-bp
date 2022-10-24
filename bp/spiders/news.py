@@ -21,6 +21,9 @@ class NewsSpider(scrapy.Spider):
         yield get_request('https://finance.yahoo.com/news/', self.parse)
 
     def parse(self, response, **kwargs):
+        with open('news.html', 'a') as f:
+            f.write(response.text)
+            
         main_list = 0
         side_list = 1
 
